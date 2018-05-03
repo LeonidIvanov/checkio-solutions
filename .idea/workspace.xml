@@ -25,20 +25,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="digits_multiplication.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elementary/digits_multiplication.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-              <folding>
-                <marker date="1525350270147" expanded="true" signature="34:491" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="number_radix.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/elementary/number_radix.py">
+      <file leaf-file-name="absolute_sorting.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elementary/absolute_sorting.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
@@ -77,6 +65,7 @@
         <option value="$PROJECT_DIR$/elementary/right_to_left.py" />
         <option value="$PROJECT_DIR$/elementary/digits_multiplication.py" />
         <option value="$PROJECT_DIR$/elementary/number_radix.py" />
+        <option value="$PROJECT_DIR$/elementary/absolute_sorting.py" />
       </list>
     </option>
   </component>
@@ -602,17 +591,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/elementary/number_radix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/elementary/digits_multiplication.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <marker date="1525350270147" expanded="true" signature="34:491" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elementary/number_radix.py">
+    <entry file="file://$PROJECT_DIR$/elementary/absolute_sorting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
