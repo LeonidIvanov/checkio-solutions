@@ -29,17 +29,20 @@ def sun_angle(time):
     sunset = get_datetime_from_str('18:00')
     sunrise = get_datetime_from_str('06:00')
     time = get_datetime_from_str(time)
-    if sunrise > time < sunset:
-        return "I don't see the sun!"
+    if sunrise < time < sunset:
+        return (180 / 12 * (int(time.strftime('%H')) - 6))\
+                + (180 / 12 / 60 * (int(time.strftime('%M'))))
     else:
-        return 180 // 12 * (int(time.strftime('%H')) - 6)
+        return "I don't see the sun!"
 
 
 if __name__ == '__main__':
     print("Example:")
     print(sun_angle("07:00"))
+    print(sun_angle('12:15'))
+    print(sun_angle('18:01'))
 
-    #These "asserts" using only for self-checking and not necessary for auto-testing
+    # These "asserts" using only for self-checking and not necessary for auto-testing
     assert sun_angle("07:00") == 15
     assert sun_angle("01:23") == "I don't see the sun!"
     print("Coding complete? Click 'Check' to earn cool rewards!")
