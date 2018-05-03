@@ -2,8 +2,7 @@ def get_node_neighbors(network, node):
     node_neighbors = []
     for conn in network:
         if node in conn:
-            conn = conn.split('-')
-            for conn_node in conn:
+            for conn_node in conn.split('-'):
                 if conn_node is not node:
                     node_neighbors.append(conn_node)
     return node_neighbors
