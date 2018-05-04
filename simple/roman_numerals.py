@@ -1,4 +1,4 @@
-def checkio(data):
+def roman_to_arabic(data):
     """Roman numerals come from the ancient Roman numbering system.
     They are based on specific letters of the alphabet which are combined to signify the sum
     (or, in some cases, the difference) of their values.
@@ -51,7 +51,7 @@ def checkio(data):
 if __name__ == '__main__':
 
     # These "asserts" using only for self-checking and not necessary for auto-testing
-    assert checkio(6) == 'VI', '6'
-    assert checkio(76) == 'LXXVI', '76'
-    assert checkio(499) == 'CDXCIX', '499'
-    assert checkio(3888) == 'MMMDCCCLXXXVIII', '3888'
+    assert roman_to_arabic(6) == 'VI', '6'
+    assert roman_to_arabic(76) == 'LXXVI', '76'
+    assert roman_to_arabic(499) == 'CDXCIX', '499'
+    assert roman_to_arabic(3888) == 'MMMDCCCLXXXVIII', '3888'
