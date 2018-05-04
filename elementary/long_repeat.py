@@ -8,11 +8,11 @@ def long_repeat(line):
 
     Output: Int.
     """
-    substrings = {}
-    string = ''
     if line == '':
         return 0
     else:
+        substrings = {}
+        string = ''
         for i in range(len(line)):
             if line[i] == line[i - 1]:
                 string += line[i]
