@@ -7,7 +7,7 @@ def correct_sentence(text: str) -> str:
     Output: A string.
     Precondition: No leading and trailing spaces, text contains only spaces, a-z A-Z , and .
     """
-    if text.endswith('.'):
+    if not text.endswith('.'):
         text += '.'
     return text[0].upper() + text[1:]
 
